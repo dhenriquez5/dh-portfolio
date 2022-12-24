@@ -6,7 +6,7 @@
 
 body {
   min-height: 100vh;
-  background: radial-gradient(ellipse at bottom, #2e5380 0%, #0c0d13 100%);
+  background: radial-gradient(ellipse at bottom, #dddfe1 0%, #4e515e 100%);
 }
 
 @function random_range($min, $max) {
@@ -26,7 +26,7 @@ body {
 
 .star {
   $star-count: 50;
-  --star-color: var(--primary-color);
+  --star-color: #fff;
   --star-tail-length: 6em;
   --star-tail-height: 2px;
   --star-width: calc(var(--star-tail-length) / 6);
