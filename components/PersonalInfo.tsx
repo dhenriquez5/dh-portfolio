@@ -22,7 +22,7 @@ const PersonalInfo = () => {
             </div>
             <div className="col-md-9">
               <h3>David Henriquez Turcios</h3>
-              <h5>Software Engineer-FullStack Developer</h5>
+              <h5>Software Engineer/FullStack Developer/Software Consultant</h5>
               <p className={styles.description_paragraph}>
                 I am a FullStack Developer with 6 years of experience working
                 with different technologies like ReactJs, NodeJs, React Native,

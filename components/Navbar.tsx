@@ -29,7 +29,7 @@ export const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" aria-current="page" href="/git">
-                  Git
+                  GitHub
                 </Link>
               </li>
             </ul>
