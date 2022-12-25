@@ -45,7 +45,7 @@ export const projects = [
     { img: '/hbr.png', name: 'Harvard Business Review', id: 1, description: 'Harvard Magazine WebSite', webSite: 'https://hbr.org/' },
     { img: '/ss.png', name: 'SaludSystem', id: 2, description: 'Health management software', webSite: '/#' },
     { img: '/ss_lite.png', name: 'SaludSystem Lite', id: 3, description: 'Self-management appointments', webSite: '/#' },
-    { img: '/ss-setup.png', name: 'SaludSystem Setup', id: 4, description: 'Settings software for the clients', webSite: '/#' },
+    { img: '/pokemon-app.png', name:'Pokemon App', id: 4, description: 'Pokemon Pokedex ', webSite: 'https://pokemon-staic.vercel.app/' },
 ];
 
 export const posts = [
