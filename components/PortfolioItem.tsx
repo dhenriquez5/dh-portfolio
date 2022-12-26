@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import Link from "next/link";
-import styles from '../styles/Home.module.css';
+import styles from "../styles/Home.module.css";
 
 interface props {
   name: string;
@@ -17,13 +17,20 @@ export const PortfolioItem: FC<props> = ({
 }) => {
   return (
     <div className="col-md-3 col-xs-12 p-2">
-      <div className="card h-100" style={{borderRadius:'8px'}}>
+      <div className="card h-100" style={{ borderRadius: "8px" }}>
         <div className={styles.overflow_img}>
-            <img style={{ borderRadius: "8px" }}  src={img} alt={name} className={`img-thumbnail ${styles.zoom_img}`}  />
+          <img
+            style={{ borderRadius: "8px" }}
+            src={img}
+            alt={name}
+            className={`img-thumbnail ${styles.zoom_img}`}
+          />
         </div>
-        <div className="card-body" >
+        <div className="card-body">
           <h6 className="text-center">{name}</h6>
           <p>{description}</p>
+        </div>
+        <div className="card-footer bg-light d-flex justify-content-end">
           <Link href={webSite}>Know more</Link>
         </div>
       </div>
