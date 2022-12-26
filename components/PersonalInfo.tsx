@@ -32,7 +32,7 @@ const PersonalInfo = () => {
               </p>
               <div className="d-flex justify-content-center">
                 <Link target="_blank" href="mailto:dhenriquezturcios@gmail.com?subject=I found your webpage and want to reach you out" className="btn btn-info">
-                  Contact
+                  Contact Me
                 </Link>
               </div>
             </div>
