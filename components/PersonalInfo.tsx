@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import styles from "../styles/Home.module.css";
 
@@ -30,9 +31,9 @@ const PersonalInfo = () => {
                 technologies.
               </p>
               <div className="d-flex justify-content-center">
-                <a href="/contact" className="btn btn-info">
+                <Link target="_blank" href="mailto:dhenriquezturcios@gmail.com?subject=I found your webpage and want to reach you out" className="btn btn-info">
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>
