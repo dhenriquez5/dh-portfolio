@@ -17,7 +17,7 @@ export default function Home() {
       <Layout
         title="David Henríquez Turcios"
         description="David Henriquez Turcios official Website. Software Engineer and Fullstack Developer with 6 years of experience working
-        with different technologies like Javascript, ReactJs, NodeJs, Typescript, Angular, NetCore"
+        with different technologies like Javascript, ReactJs, NodeJs, Typescript, Angular, NetCore who really enjoy programming and learning new technologies."
       >
         {/* Header Card */}
         <PersonalInfo />
