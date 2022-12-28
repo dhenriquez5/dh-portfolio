@@ -11,7 +11,7 @@ export default function Blog() {
   return (
     <>
       <Layout
-        title="Blog David Henriquez"
+        title="Blog Page David Henriquez"
         description="Blogs related to different technologies for web development, how to start, best practices and more..."
         footer={false}
       >

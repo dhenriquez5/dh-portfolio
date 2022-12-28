@@ -18,8 +18,8 @@ export default function Git({ user, statusCode }: any) {
   return (
     <>
       <Layout
-        description="Git David Henriquez"
-        title="Git information about my gitHub profile"
+        title="Git Page David Henriquez"
+        description="Git information about my gitHub profile"
         footer={false}
       >
         <div className="row">
