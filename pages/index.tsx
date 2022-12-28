@@ -15,8 +15,9 @@ export default function Home() {
   return (
     <>
       <Layout
-        description="Web Page David Henriquez Turcios"
-        title="Web Page David Henrquez Turcios"
+        title="David Henríquez Turcios"
+        description="David Henriquez Turcios official Website. Software Engineer and Fullstack Developer with 6 years of experience working
+        with different technologies like Javascript, ReactJs, NodeJs, Typescript, Angular, NetCore"
       >
         {/* Header Card */}
         <PersonalInfo />

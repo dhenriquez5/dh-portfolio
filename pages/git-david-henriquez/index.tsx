@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
-import { Layout } from "../components/Layout";
-import Error from "./_error";
+import styles from "../../styles/Home.module.css";
+import { Layout } from "../../components/Layout";
+import Error from "../_error";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +19,7 @@ export default function Git({ user, statusCode }: any) {
     <>
       <Layout
         description="Git David Henriquez"
-        title="Git David Henriquez"
+        title="Git information about my gitHub profile"
         footer={false}
       >
         <div className="row">
@@ -66,7 +66,6 @@ export default function Git({ user, statusCode }: any) {
 export async function getServerSideProps() {
   const res = await fetch("https://api.github.com/users/dhenriquez5");
   const data = await res.json();
-  console.log(data);
   const statusCode = res.status > 200 ? res.status : false;
 
   return {

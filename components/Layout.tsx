@@ -38,7 +38,10 @@ export const Layout: FC<LayoutProps> = ({
       <AnimationStars/>
       <Head>
         <title>{title}</title>
+        <meta charSet="utf-8" />
+        <meta name="robots" content="follow,index" />
         <meta name="description" content={description} />
+        <meta name="keywords" content={`${title} ,FullStack Developer,Software Engineer,David Henriquez,David Henriquez Turcios`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
