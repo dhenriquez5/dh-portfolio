@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <>
       <Layout
-        description="Portfolio David Henriquez"
-        title="Portfolio David Henriquez"
+        description="Web Page David Henriquez Turcios"
+        title="Web Page David Henrquez Turcios"
       >
         {/* Header Card */}
         <PersonalInfo />

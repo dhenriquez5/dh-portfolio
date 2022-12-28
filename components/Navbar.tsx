@@ -23,12 +23,12 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav" style={{ marginLeft: "auto" }}>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" href="/blog">
+                <Link className="nav-link" aria-current="page" href="/blog-david-henriquez">
                   Blog
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" href="/git">
+                <Link className="nav-link" aria-current="page" href="/git-david-henriquez">
                   GitHub
                 </Link>
               </li>
