@@ -19,6 +19,13 @@ export const experiences = [
         description: 'Software Developer',
     },
     {
+        id: 4,
+        name: 'Sistemas Infotec',
+        init_date: 'September 2022',
+        end_date: '',
+        description: 'Free Lancer Software Consultant',
+    },
+    {
         id: 2,
         name: 'Unosquare',
         init_date: 'May 2022',
@@ -32,13 +39,7 @@ export const experiences = [
         end_date: 'Current Project',
         description: 'Software Developer',
     },
-    {
-        id: 4,
-        name: 'Sistemas Infotec',
-        init_date: 'September 2022',
-        end_date: '',
-        description: 'Free Lancer Software Consultant',
-    }
+   
 ]
 
 export const projects = [
