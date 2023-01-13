@@ -31,7 +31,7 @@ const PersonalInfo = () => {
                 technologies.
               </p>
               <div className="d-flex justify-content-center">
-                <Link target="_blank" href="mailto:dhenriquezturcios@gmail.com?subject=I found your webpage and want to reach you out" className="btn btn-info">
+                <Link target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&to=dhenriquezturcios@gmail.com&su=I%20found%20your%20webpage%20and%20want%20to%20reach%20you%20out&body=&tf=cm" className="btn btn-info">
                   Contact Me
                 </Link>
               </div>

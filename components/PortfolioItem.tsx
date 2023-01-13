@@ -31,7 +31,7 @@ export const PortfolioItem: FC<props> = ({
           <p>{description}</p>
         </div>
         <div className="card-footer bg-light d-flex justify-content-end">
-          <Link href={webSite}>Know more</Link>
+          <Link target="_blank" href={webSite}>Know more</Link>
         </div>
       </div>
     </div>

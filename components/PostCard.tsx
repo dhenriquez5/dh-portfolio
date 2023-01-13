@@ -24,7 +24,8 @@ export const PostCard: FC<props> = ({ title, description, image }) => {
           <p>{description}</p>
         </div>
         <div className="card-footer bg-light d-flex justify-content-end">
-          <Link href="/#" className="btn btn-outline-info">Read</Link>
+          {/* <Link href="/#" className="btn btn-outline-info">Read</Link> */}
+          <p>Comming soon</p>
         </div>
       </div>
     </div>
