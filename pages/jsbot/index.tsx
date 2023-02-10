@@ -20,7 +20,8 @@ export default function jsBot() {
 
   useEffect(() => {
     if (isLoading) nProgress.start();
-    nProgress.done();
+    else nProgress.done();
+    
   }, [isLoading]);
 
   useEffect(() => {
