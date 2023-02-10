@@ -112,7 +112,7 @@ export default function jsBot() {
           <div
             style={{
               zIndex: 1000,
-              position: "fixed",
+              position: "absolute",
               overflow: "auto",
               padding: "2rem",
               width: "80%",
