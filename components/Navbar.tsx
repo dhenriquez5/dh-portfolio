@@ -32,6 +32,11 @@ export const Navbar = () => {
                   GitHub
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" href="/jsbot">
+                  JsBot
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
